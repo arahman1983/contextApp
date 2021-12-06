@@ -1,0 +1,54 @@
+.sideMenu{
+  background-color: #282c34;
+  width: 300px;
+  color: #61dafb;
+  height: 100vmin;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: all 1s;
+}
+
+.sideMenuCollapsed{
+  background-color: #282c34;
+  width: 0px;
+  overflow: hidden;
+  color: #61dafb;
+  height: 100vmin;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: all 1s;
+}
+
+.sideMenuCollapsed li{
+  width: 0px;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  overflow-wrap: none;
+  transition: all 1s;
+}
+
+.sideMenu li{
+  width: 100%;
+  height: 46px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid #444;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  overflow-wrap: none;
+  transition: all 1s;
+}
+
+
+.sideMenu li:hover{
+  background-color: rgba(255,255,255,0.1);
+  box-sizing: border-box;
+}

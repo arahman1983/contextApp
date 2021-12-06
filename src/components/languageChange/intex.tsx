@@ -1,16 +1,12 @@
-import { useState } from 'react'
+import { useContext } from 'react'
+import { ThemeContext } from '../../context'
 import styles from './lang.module.css'
 
 export default function LanguageChange() {
-  const [Lang, setLang] = useState<string>('EN')
-  const handleChangeLang = () => {
-    Lang === 'AR'
-      ? setLang('EN')
-      : setLang('AR')
-  }
+  const {language, changeLanguage} = useContext(ThemeContext)
   return (
-    <button className={styles.button} onClick={handleChangeLang}>
-      {Lang}
+    <button className={styles.button} onClick={changeLanguage}>
+      {language === 'AR' ? 'EN' : 'AR'}
     </button>
   )
 }

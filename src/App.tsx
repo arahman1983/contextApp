@@ -1,10 +1,14 @@
-import { APPHeader } from './components';
+import { APPHeader, SideMenu } from './components';
+import { ThemeProvider } from './context';
+
 
 function App() {
+
   return (
-    <div className="">
-      <APPHeader />
-    </div>
+    <ThemeProvider >
+        <APPHeader />
+        <SideMenu />
+    </ThemeProvider>
   );
 }
 
