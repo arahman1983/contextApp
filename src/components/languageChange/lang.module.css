@@ -1,0 +1,12 @@
+.button{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-inline-end: 16px;
+  background: #FFF;
+	color: #444;
+	border: none;
+	cursor: pointer;
+	outline: inherit;
+  font-size: 14px;
+}
