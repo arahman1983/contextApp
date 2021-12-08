@@ -1,6 +1,7 @@
 .sideMenu{
+  position: absolute;
   background-color: #282c34;
-  width: 300px;
+  width: 250px;
   color: #61dafb;
   height: 100vmin;
   box-sizing: border-box;
@@ -11,6 +12,7 @@
 }
 
 .sideMenuCollapsed{
+  position: absolute;
   background-color: #282c34;
   width: 0px;
   overflow: hidden;

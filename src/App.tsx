@@ -1,13 +1,16 @@
-import { APPHeader, SideMenu } from './components';
+import { APPHeader, Form, SideMenu } from './components';
 import { ThemeProvider } from './context';
-
+import styles from './app.module.css'
 
 function App() {
 
   return (
     <ThemeProvider >
         <APPHeader />
-        <SideMenu />
+        <div className={styles.container}>
+          <SideMenu />
+          <Form/>
+        </div>
     </ThemeProvider>
   );
 }

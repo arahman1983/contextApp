@@ -12,7 +12,7 @@ type ContextValues = {
 export const defaultValue = {
   collapsed: true,
   language: 'EN',
-  userName: 'fdsf sfsdf', 
+  userName: 'Default User', 
 }
 
 export const ThemeContext = React.createContext<ContextValues>(defaultValue)

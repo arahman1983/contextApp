@@ -1,0 +1,26 @@
+.container{
+  padding: 16px;
+}
+.container input{
+  margin-inline-end: 16px;
+  height: 28px;
+  font-family: 'arial';
+  width: 300px;
+}
+
+.container button{
+  background-color: #282c34;
+  color: #FFF;
+  width: max-content;
+  height: 32px !important;
+  padding-inline: 16px !important;
+  border-radius: 8px;
+}
+
+.container button:hover{
+  background-color: #464d5a;
+}
+
+.container p{
+  color: red;
+}
